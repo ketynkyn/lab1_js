@@ -23,8 +23,8 @@ function App() {
   return (
       <div className="App">
         <input type="file" id="file" accept="image/*" onChange={ChangeImage}/>
-        <div id="img-area" className="box"></div>
-        {imageUrls.map(img=> <img src={img} alt=""/>)}
+        <div id="img-area" className="box"> {imageUrls.map(img=> <img src={img} alt=""/>)}</div>
+          .
       </div>
   );
 }
